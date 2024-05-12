@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: is;
+  src: url("../media/font/IranianSans.ttf");
+  src: url("../media/font/IranianSans.eot");
+  src: url("../media/font/IranianSans.woff");
+  src: url("../media/font/IranianSans.woff2");
+}
+.wrapper {
+  width: 100%;
+}
+/*
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: steelblue;
+  border: 1px solid lightgray;
+  border-radius: 50px 0 50px 0;
+}
+*/
