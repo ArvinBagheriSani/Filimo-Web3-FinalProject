@@ -5,18 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <link
+      rel="stylesheet"
+      type="text/css"
+      href="../html/node_modules/swiper/swiper-bundle.min.css"
+    />
+    <link
       rel="shortcut icon"
       href="../media/image/favicon.ico"
       type="image/x-icon"
     />
-    <title>فیلیمو</title>
+    <title>تماشای آنلاین فیلم و سریال | فیلیمو</title>
   </head>
   <body>
     <!--make website-->
     <!--wrpapper-->
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <!--header-->
+      <header>
+        <!--headerdiv-->
+        <div class="header">
+          <!--menu-->
+          <div class="menu">
+            <!--toplogo-->
+            <div class="toplogo">
+              <a href="#"
+                ><img src="../media/image/filimo.png" alt="topicon"
+              /></a>
+            </div>
+            <!--end toplogo-->
+            <!--film-->
+            <div class="film">
+              <a href="#">فیلم<span></span></a>
+            </div>
+            <!--end film-->
+            <!--series-->
+            <div class="series"><a href="#">سریال</a></div>
+            <!--end series-->
+            <!--search-->
+            <div class="search">
+              <a href="#"
+                >جستجو<span
+                  ><img src="../media/image/search.svg" alt="search" /></span
+              ></a>
+            </div>
+            <!--end search-->
+            <!--register-->
+            <div class="register">
+              <a href="#"
+                >خرید اشتراک<span
+                  ><img
+                    src="../media/image/register.svg"
+                    alt="register" /></span
+              ></a>
+            </div>
+            <!--end register-->
+            <!--login-->
+            <div class="login"><a href="#">ورود</a></div>
+            <!--end login-->
+          </div>
+          <!--end menu-->
+        </div>
+        <!--end headerdiv-->
+      </header>
+      <!--end header-->
+      <!--swiper-->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../media/image/empaq_desktop_1_v1.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../media/image/6z7gw_desktop_1_v1.jpeg" />
+          </div>
+        </div>
+        <!--
+        <div class="swiper-button-next"></div> 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        -->
+      </div>
+      <!--end swiper-->
+      <!--info-->
+      <div class="info">
+        <h5>با فیلیمو بی وقفه فیلم ببین</h5>
+        <h2>!کنترل همیشه دست توست</h2>
+        <div>
+          <h3>
+            هزار اپیزود فیلم و سریال برای تماشا داری<span
+              ><img src="../media/image/icon-play.svg" alt=""
+            /></span>
+          </h3>
+          <h3>
+            هزار اپیزود فیلم و سریال برای تماشا داری<span
+              ><img src="../media/image/icon-play.svg" alt=""
+            /></span>
+          </h3>
+          <h3>
+            هزار اپیزود فیلم و سریال برای تماشا داری<span
+              ><img src="../media/image/icon-play.svg" alt=""
+            /></span>
+          </h3>
+        </div>
+        <a href="#"
+          ><h4>
+            خرید اشتراک و تماشا<span
+              ><img src="../media/image/register.svg" alt=""
+            /></span></h4
+        ></a>
+        <h6>
+          تخفیف ویژه برای کاربران جدید<span
+            ><img src="../media/image/ticket.png" alt=""
+          /></span>
+        </h6>
+      </div>
+      <!--end info-->
+    </div>
     <!--end wrapper-->
     <script src="../js/main.js"></script>
+    <script src="../html/node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        effect: "fade",
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
     <!--end make website-->
   </body>
 </html>
