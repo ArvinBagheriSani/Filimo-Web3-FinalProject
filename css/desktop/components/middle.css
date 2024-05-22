@@ -12,7 +12,7 @@
   .watchimg {
     img {
       margin-top: 100px !important;
-      width: 90%;
+      width: 95%;
       height: auto;
       margin: 0 auto;
       object-fit: cover;
@@ -27,7 +27,7 @@
       font-weight: bold;
       text-align: right;
       vertical-align: middle;
-      margin-top: 150px;
+      margin-top: 110px;
       margin-right: 50px;
     }
     h4 {
@@ -198,17 +198,6 @@
       &:hover {
         background-color: #898989;
       }
-      span {
-        display: none;
-        vertical-align: bottom;
-        img {
-          width: 15px;
-          height: auto;
-          object-fit: cover;
-          margin-left: 5px;
-          display: inline-block;
-        }
-      }
     }
   }
 }
@@ -276,3 +265,72 @@
   }
 }
 /*--------------------------------------*/
+.watch3 {
+  overflow: hidden;
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(245deg, #004a60 0, #151515 40%);
+  display: grid;
+  grid-template-rows: repeat(1, 450px);
+  grid-template-columns: repeat(2, 40%);
+  gap: 1px;
+  justify-content: center;
+  align-content: center;
+  .watchimg {
+    img {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+      margin-top: 25px !important;
+      object-fit: cover;
+    }
+  }
+  .watchinfo {
+    direction: rtl;
+    h3 {
+      font-family: is;
+      font-size: 20px;
+      color: whitesmoke;
+      font-weight: bold;
+      text-align: right;
+      vertical-align: middle;
+      margin-top: 150px;
+      margin-right: 50px;
+    }
+    h4 {
+      font-family: is;
+      font-size: 12px;
+      color: gray;
+      font-weight: bold;
+      text-align: right;
+      vertical-align: middle;
+      margin-top: 15px;
+      margin-right: 50px;
+    }
+    p {
+      width: fit-content;
+      padding: 0 15px 0 15px;
+      display: inline-block;
+      margin-top: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+      height: 40px;
+      border-radius: 10px;
+      background-color: whitesmoke;
+      text-align: center;
+      color: #141414;
+      font-family: is;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 40px;
+      transition: 300ms;
+      &:hover {
+        background-color: #b8b8b8;
+      }
+    }
+  }
+}
+/*--------------------------------------*/
+.marginr2 {
+  margin-right: 50px !important;
+}
