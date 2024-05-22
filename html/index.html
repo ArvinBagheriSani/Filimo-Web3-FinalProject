@@ -219,7 +219,6 @@
         </div>
       </div>
       <!--end underpopular1-->
-
       <!--underpopular2-->
       <div class="underpopular2" id="underpopular2">
         <img src="../media/image/mov_cvr_filimo_hor_146925_641.jpg" alt="" />
@@ -268,6 +267,134 @@
         </div>
       </div>
       <!--end underpopular2-->
+      <!--watch1-->
+      <div class="watch1">
+        <!--watchinfo-->
+        <div class="watchinfo">
+          <h3>تماشای فیلیمو با همه دستگاه‌ها</h3>
+          <h4>
+            می‌توانید فیلیمو را به صورت هم‌زمان روی 3 دستگاه مختلف مثل موبایل،
+            تبلت، لپ‌تاپ، تلویزیون و... تماشا کنید.
+          </h4>
+          <h5>
+            <span><img src="../media/image/laptop.png" alt="" /></span>کامپیوتر
+            و لپ‌تاپ
+          </h5>
+          <h6>windows PC - MacOS - Chorom OS</h6>
+          <h5>
+            <span
+              ><img
+                class="marginl1"
+                src="../media/image/mobile.png"
+                alt="" /></span
+            >موبایل و تبلت
+          </h5>
+          <h6>
+            Android Phone & Tablets - Iphone and Ipad - Amazon Fire Tablets
+          </h6>
+          <h5>
+            <span><img src="../media/image/game.png" alt="" /></span>کنسول‌های
+            بازی (Browser)
+          </h5>
+          <h6>Xbox Series S - Xbox Seris X - PS5 - PS4</h6>
+          <p>
+            <span><img src="../media/image/register.svg" alt="" /></span>خرید
+            اشتراک و تماشا
+          </p>
+        </div>
+        <!--end watchinfo-->
+        <!--watchimg-->
+        <div class="watchimg">
+          <img src="../media/image/deviceYaghi.png" alt="" />
+        </div>
+        <!--end watchimg-->
+      </div>
+      <!--end watch1-->
+      <!--watch2-->
+      <div class="watch2">
+        <!--watchimg-->
+        <div class="watchimg">
+          <img src="../media/image/TVBG.png" alt="" />
+        </div>
+        <!--end watchimg-->
+        <!--watchinfo-->
+        <div class="watchinfo">
+          <h3>چطور با تلویزیون، فیلیمو تماشا کنم؟</h3>
+          <h4>
+            ما برای راحتی شما و تماشای فیلیمو روی تلویزیون‌های مختلف 6 روش را
+            فراهم کردیم. هرکدام از این 6 روش یک ویدیو آموزشی دارند که می‌توانید
+            از لینک زیر، آن‌ها را تماشا کنید و روشی که با تلویزیون شما سازگار
+            است را انتخاب کنید.
+          </h4>
+          <h5>
+            <span><img src="../media/image/TV.png" alt="" /></span>
+            تلویزیون
+          </h5>
+          <h6>
+            Amazon Fire TV - LG TVs - Chrome Cast - Apple TV - Android TV
+            devices - Samsung
+          </h6>
+          <h5>
+            <span><img src="../media/image/androidTV.png" alt="" /></span
+            >اندروید تی‌وی
+          </h5>
+          <h6>
+            NVIDIA - amazon - xiaomi - minix - skystream - turewell - ematic -
+            humax - matricom
+          </h6>
+          <p>
+            <span><img src="../media/image/register.svg" alt="" /></span>
+            ویدیو های آموزشی تماشا در تلوزیون >
+          </p>
+        </div>
+        <!--end watchinfo-->
+      </div>
+      <!--end watch2-->
+        <!--free-->
+        <div class="free">
+          <h3>محتواهای رایگان</h3>
+          <div class="swiper3 mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146824_157626.jpg" alt="" />
+                <p>قسمت</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146924_157960.jpg" alt="" />
+                <p>آموزش</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146925_158272.jpg" alt="" />
+                <p>بازی</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146288_155645.jpg" alt="" />
+                <p>دوستان</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146927_158189.jpg" alt="" />
+                <p>همیشه</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_147023_158403.jpg" alt="" />
+                <p>هم کناه</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146925_158272.jpg" alt="" />
+                <p>بازی</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="../media/image/mov_146288_155645.jpg" alt="" />
+                <p>دوستان</p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <!--end free-->
+      </div>
+      <!--end free-->
     </div>
     <!--end wrapper-->
     <script src="../js/main.js"></script>
@@ -299,6 +426,26 @@
         centeredSlides: false,
         autoplay: {
           delay: 2000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper3 = new Swiper(".mySwiper3", {
+        loop: true,
+        slidesPerView: 6,
+        spaceBetween: 30,
+        centeredSlides: false,
+        autoplay: {
+          delay: 3500,
           disableOnInteraction: false,
         },
         navigation: {
