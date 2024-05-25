@@ -14,7 +14,7 @@
     }
   }
 }
-.info {
+.info1 {
   position: absolute;
   top: 50px;
   left: 0;
@@ -167,15 +167,18 @@
     }
   }
   .popularitems {
+    height: auto;
     display: flex;
-    flex-flow: row-reverse wrap;
+    flex-flow: row-reverse nowrap;
     justify-content: center;
-    gap: 18px;
+    column-gap: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
     a {
       text-decoration: none;
       div {
         margin-top: 40px;
-        width: 190px;
+        width: 160px;
         height: auto;
         filter: brightness(0.6);
         transition: 300ms;
