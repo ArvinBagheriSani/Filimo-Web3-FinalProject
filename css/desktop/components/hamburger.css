@@ -1,0 +1,8 @@
+.mobilemenu,
+.black,
+label[for="mobilemenu"],
+label[for="close"],
+#mobilemenu,
+#close {
+  display: none;
+}

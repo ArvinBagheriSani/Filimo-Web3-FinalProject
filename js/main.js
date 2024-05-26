@@ -60,3 +60,10 @@ document.querySelector(".q4").addEventListener("click", function () {
   document.querySelector(".q4").style.color = "#faaa3d";
 });
 //-------------------------------------------------------------------------------
+//hamburger menu mobile-tablet
+document.querySelector(".mobilemenu").addEventListener("click", function () {
+  document.querySelector(".mobilemenu").style.right = "-100%";
+});
+document.querySelector(".movement").addEventListener("click", function () {
+  document.querySelector(".mobilemenu").style.right = "0";
+});

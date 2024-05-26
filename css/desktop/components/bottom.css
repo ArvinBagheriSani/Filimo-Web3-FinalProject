@@ -171,7 +171,7 @@
     margin-right: 130px;
     z-index: 7;
     top: 0;
-    display: inline-block;
+    display: block;
     color: whitesmoke;
     font-family: is;
     font-size: 20px;
@@ -311,7 +311,7 @@
     width: 1150px;
     cursor: pointer;
     height: auto;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     margin: 0 auto;
     background-color: rgb(26, 26, 26);
     border: 2px solid rgb(47, 47, 47);
@@ -347,7 +347,7 @@
     width: 1150px;
     cursor: pointer;
     height: auto;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     margin: 0 auto;
     background-color: rgb(26, 26, 26);
     border: 2px solid rgb(47, 47, 47);
@@ -383,7 +383,7 @@
     width: 1150px;
     cursor: pointer;
     height: auto;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     margin: 0 auto;
     background-color: rgb(26, 26, 26);
     border: 2px solid rgb(47, 47, 47);
