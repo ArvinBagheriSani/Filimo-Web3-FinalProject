@@ -122,6 +122,7 @@
   }
   .watchinfo {
     direction: rtl;
+    padding-bottom: 40px;
     h3 {
       font-family: is;
       font-size: 16px;
@@ -256,7 +257,7 @@
 .watch3 {
   overflow: hidden;
   width: 100%;
-  min-height: 500px;
+  height: auto;
   background: linear-gradient(245deg, #004a60 0, #151515 40%);
   display: grid;
   grid-template-rows: repeat(2, auto);
@@ -265,8 +266,8 @@
   align-content: center;
   .watchimg {
     img {
-      height: 100%;
-      width: auto;
+      height: auto;
+      width: 100%;
       margin: 0 auto;
       margin-top: 25px !important;
       object-fit: cover;
