@@ -1,6 +1,69 @@
 {
+  "hamburger": [
+    { "id": "1", "text": "فیلم" },
+    { "id": "2", "text": "سریال" },
+    { "id": "3", "text": "خرید اشتراک" },
+    { "id": "4", "text": "ورود" },
+    { "id": "5", "text": "تماشا با تلوزیون" },
+    { "id": "6", "text": "اپلیکیشن ها" },
+    { "id": "7", "text": "تماس و پشتیبانی" },
+    { "id": "8", "text": "فروشگاه" },
+    { "id": "9", "text": "سایر لینک ها" },
+    { "id": "10", "text": "شبکه های اجتماعی" }
+  ],
   "topslider": [
-    { "id": "1", "src": "../media/image/empaq_desktop_1_v1.jpeg" },
-    { "id": "2", "src": "../media/image/6z7gw_desktop_1_v1.jpeg" }
+    { "id": "1", "source": "./media/image/desktop1.jpeg" },
+    { "id": "2", "source": "./media/image/desktop2.jpeg" },
+    { "id": "3", "source": "./media/image/desktop3.jpeg" }
+  ],
+  "free": [
+    {
+      "id": "1",
+      "source": "./media/image/mov_146824_157626.jpg",
+      "text": "قسمت"
+    },
+    {
+      "id": "2",
+      "source": "./media/image/mov_146924_157960.jpg",
+      "text": "آموزش"
+    },
+    {
+      "id": "3",
+      "source": "./media/image/mov_146925_158272.jpg",
+      "text": "بازی"
+    },
+    {
+      "id": "4",
+      "source": "./media/image/mov_146288_155645.jpg",
+      "text": "قسمت"
+    },
+    {
+      "id": "5",
+      "src": "./media/image/mov_146927_158189.jpg",
+      "txt": "دوستان"
+    },
+    {
+      "id": "6",
+      "source": "./media/image/mov_147023_158403.jpg",
+      "text": "همیشه"
+    },
+    {
+      "id": "7",
+      "source": "./media/image/mov_147024_158401.jpg",
+      "text": "رفت"
+    },
+    {
+      "id": "8",
+      "source": "./media/image/mov_145894_154677.jpg",
+      "text": "برکشت"
+    }
+  ],
+  "stickyfooter": [
+    { "id": "1", "text": "تماشا با تلوزیون" },
+    { "id": "2", "text": "اپلیکیشن ها" },
+    { "id": "3", "text": "تماس و پشتیبانی" },
+    { "id": "4", "text": "فروشگاه" },
+    { "id": "5", "text": "سایر لینک ها" },
+    { "id": "6", "text": "شبکه های اجتماعی" }
   ]
 }

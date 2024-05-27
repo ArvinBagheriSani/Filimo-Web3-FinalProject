@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch ../js/db.json",
-    "tailwind": "npx tailwindcss -i ../css/tailwindcfg.css -o ../css/tailwind/tailwind.css --watch"
+    "server": "json-server --watch ./js/db.json",
+    "tailwind": "npx tailwindcss -i ./css/tailwindcfg.css -o ./css/tailwind/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",

@@ -107,7 +107,7 @@
   margin-right: 5px;
   margin-left: 30px !important;
 }
-/*---------------------------------*/
+/*--------------------------------------------*/
 .watch2 {
   overflow: hidden;
   width: 100%;
@@ -201,7 +201,7 @@
     }
   }
 }
-/*--------------------------------*/
+/*--------------------------------------------*/
 .free {
   overflow: hidden;
   display: block;
@@ -222,7 +222,7 @@
     font-weight: bold;
   }
 }
-/*----------------------------*/
+/*--------------------------------------------*/
 .swiper3 {
   width: 85%;
   overflow: hidden;
@@ -231,7 +231,7 @@
   margin-top: 15px;
   z-index: 6;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   .swiper-slide {
     cursor: pointer;
     text-align: center;
@@ -250,6 +250,10 @@
       object-fit: cover;
       border-radius: 15px;
       filter: brightness(0.7);
+      transition: 300ms;
+      &:hover {
+        filter: brightness(1);
+      }
     }
     p {
       display: block;
@@ -264,7 +268,7 @@
     }
   }
 }
-/*--------------------------------------*/
+/*--------------------------------------------*/
 .watch3 {
   overflow: hidden;
   width: 100%;
@@ -330,7 +334,7 @@
     }
   }
 }
-/*--------------------------------------*/
+/*--------------------------------------------*/
 .marginr2 {
   margin-right: 50px !important;
 }

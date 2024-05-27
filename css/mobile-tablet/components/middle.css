@@ -20,7 +20,7 @@
     direction: rtl;
     h3 {
       font-family: is;
-      margin-top: 20px;
+      margin-top: 30px;
       font-size: 18px;
       color: whitesmoke;
       font-weight: bold;
@@ -101,7 +101,7 @@
   margin-right: 0px;
   margin-left: 0px;
 }
-/*---------------------------------*/
+/*--------------------------------------------*/
 .watch2 {
   overflow: hidden;
   width: 100%;
@@ -191,7 +191,7 @@
     }
   }
 }
-/*--------------------------------*/
+/*--------------------------------------------*/
 .free {
   overflow: hidden;
   display: block;
@@ -212,9 +212,9 @@
     font-weight: bold;
   }
 }
-/*----------------------------*/
+/*--------------------------------------------*/
 .swiper3 {
-  width: 100%;
+  width: 97.5%;
   overflow: hidden;
   margin: 0 auto;
   height: 300px;
@@ -239,6 +239,10 @@
       object-fit: cover;
       border-radius: 15px;
       filter: brightness(0.7);
+      transition: 300ms;
+      &:hover {
+        filter: brightness(1);
+      }
     }
     p {
       display: block;
@@ -253,7 +257,7 @@
     }
   }
 }
-/*--------------------------------------*/
+/*--------------------------------------------*/
 .watch3 {
   overflow: hidden;
   width: 100%;
@@ -316,7 +320,7 @@
     }
   }
 }
-/*--------------------------------------*/
+/*--------------------------------------------*/
 .marginr2 {
   margin-right: 0px;
 }

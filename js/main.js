@@ -1,3 +1,5 @@
+//-------------------------------------------------------------------------------
+//underpopular of popularitems
 document.querySelector(".popularitem1").addEventListener("click", function () {
   document.querySelector(".underpopular1").style.display = "block";
   document.querySelector(".underpopular2").style.display = "none";
@@ -7,6 +9,7 @@ document.querySelector(".popularitem2").addEventListener("click", function () {
   document.querySelector(".underpopular2").style.display = "block";
 });
 //-------------------------------------------------------------------------------
+//frequently asked questions
 document.querySelector(".q1").addEventListener("click", function () {
   document.querySelector(".a1").style.display = "block";
   document.querySelector(".q1").style.color = "#faaa3d";
@@ -67,3 +70,4 @@ document.querySelector(".mobilemenu").addEventListener("click", function () {
 document.querySelector(".movement").addEventListener("click", function () {
   document.querySelector(".mobilemenu").style.right = "0";
 });
+//-------------------------------------------------------------------------------

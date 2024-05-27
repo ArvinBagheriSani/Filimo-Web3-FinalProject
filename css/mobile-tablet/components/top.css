@@ -1,7 +1,6 @@
 .swiper {
   width: 100%;
   display: none;
-  /*filter: saturate(0.7) brightness(0.6) drop-shadow(16px 16px 25px #2b2b2b);*/
   height: 550px;
   .swiper-slide {
     background-position: center;
@@ -115,7 +114,7 @@
     }
   }
 }
-/*-----------------------------*/
+/*--------------------------------------------*/
 .popular {
   overflow: hidden;
   background-color: #000000;
@@ -172,7 +171,7 @@
     width: 100%;
     height: inherit;
     display: flex;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 40px 0;
     height: auto;
     flex-flow: column nowrap;
     justify-content: center;
@@ -182,12 +181,12 @@
       text-decoration: none;
       div {
         margin-top: 40px;
-        width: 60%;
+        width: 75%;
         margin: 0 auto;
         height: auto;
         filter: brightness(0.6);
         transition: 300ms;
-        border-radius: 20px;
+        border-radius: 15px;
         overflow: hidden;
         &:hover {
           scale: 1.1;
@@ -202,6 +201,9 @@
         }
         p {
           color: whitesmoke;
+          position: absolute;
+          top: 100%;
+          left: 0;
           vertical-align: middle;
           display: inline-block;
           font-family: is;
@@ -226,7 +228,7 @@
     }
   }
 }
-/*-------------------------------------*/
+/*--------------------------------------------*/
 .underpopular1 {
   overflow: hidden;
   width: 100%;
@@ -317,7 +319,7 @@
     margin-top: 25px;
   }
 }
-/*-----------------------------*/
+/*--------------------------------------------*/
 .underpopular2 {
   overflow: hidden;
   display: none;
@@ -411,9 +413,9 @@
     margin-top: 25px;
   }
 }
-/*----------------------------*/
+/*--------------------------------------------*/
 .swiper2 {
-  width: 100%;
+  width: 97.5%;
   overflow: hidden;
   margin: 0 auto;
   height: 300px;
@@ -477,7 +479,7 @@
   border-radius: 50% !important;
   line-height: 50px !important;
 }
-/*--------------------------------------*/
+/*--------------------------------------------*/
 /*
   .bolder {
     scale: 1.1 !important;
