@@ -6,7 +6,7 @@ module.exports = {
       darkMode: ["media"],
       colors: {
         sefid: "whitesmoke !important",
-        meshki: "#2b2b2b !important",
+        meshki: "black !important",
       },
     },
   },
