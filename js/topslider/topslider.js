@@ -3,7 +3,7 @@ const topslider = async () => {
     let data = await fetch("http://localhost:3000/topslider");
     let res = await data.json();
     let topslider = res.map((elem) => {
-      return `<div class="swiper-slide"><img src=${elem.src}></div>`;
+      return `<div class="swiper-slide"><img src=${elem.source}></div>`;
     });
     document
       .querySelector(".swiper div")
